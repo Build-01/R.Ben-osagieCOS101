@@ -16,12 +16,12 @@ fn main(){
 
 	//Calculationg the sum 
 
-	let _f = (a * 2.0) + (b * 1.0) + (c * 3.0) + (d * 3.0) + (e * 1.0);
+	let _f = a  + b  + c + d +  e;
 	println!("The sum is {}", _f);
 
 	//Calculating the average
 
-    let m = (a * 2.0) + (b * 1.0) + (c * 3.0) + (d * 3.0) + (e * 1.0)/10.0;
+    let m = (a  + b  + c + d +  e)/5.0;
     println!("The average is {}", m);
 
 }

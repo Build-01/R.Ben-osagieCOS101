@@ -4,6 +4,7 @@ fn main(){
 	let p:f64 = 520_000_000.00;
 	let r:f64 = 10.0;
 	let _n:f64 = 5.0;
+
 	//representing (r)/100.0 as x
 	let x:f64 = (r)/100.0;
 
@@ -13,9 +14,11 @@ fn main(){
 	//Finding the value of p * (1.0 + x)
 	let _y = p * (1.0 + x);
 	let q = 1.0 + x;
-	//Getting the fifth root of the function
+
+	//Getting the fifth square of the function
 	let z = q * q * q * q *  q;
-	//getting the value for the amount
+
+	//getting the value of the amount
 	let a = p * z;
 	println!("The amount is {}", a);
 
