@@ -5,5 +5,8 @@ fn main() {
 
 
 
-    println!("{:?}", );
+    println!("Result value is {}", result);
+    println!("Interest value is {}", interest);
+    println!("Cost is {}", cost);
+
 }
