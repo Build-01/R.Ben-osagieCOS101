@@ -23,12 +23,15 @@ fn main() {
     println!("Enter the value for c :");
     io::stdin().read_line(&mut input_3).expect("Not not a valid string");
     let c:f32 = input_3.trim().parse().expect("Not a valid number");
+    
 
 
 
-    let  d = b.powf(2.0) - (4.0 * a * c);
-    let  x_1 = -b.powf(2.0) + (d.powf(0.5))/2.0 * a * c;
-    let  x_2 = -b.powf(2.0) - (d.powf(0.5))/2.0 * a * c;
+    let  d = (b.powf(2.0) - (4.0 * a * c)).powf(0.5);
+    let  x_1a = -b + d;
+    let x_1 = x_1a/2.0 * a; 
+    let  x_2a = -b - d;
+    let x_2 = x_2a/2.0 * a; 
 
     if d > 0.0 {
         println!("Your equation has 2 distinct roots which are: {}", x_1);
