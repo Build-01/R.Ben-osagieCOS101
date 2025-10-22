@@ -4,6 +4,8 @@ use std::io;
 
 fn main() {
     println!("Let's find the roots of your quadratic equation!");
+    
+    //Defining each function  
 
     let mut input_1 = String::new();
     let mut input_2 = String::new();
@@ -26,13 +28,19 @@ fn main() {
     
 
 
+    //Finding the determiner of the equation
 
     let  d = (b.powf(2.0) - (4.0 * a * c)).powf(0.5);
+
+    //Representing the formula with with variables to break down the calculation.
+
     let  x_1a = -b + d;
     let x_1 = x_1a/2.0 * a; 
     let  x_2a = -b - d;
     let x_2 = x_2a/2.0 * a; 
+    
 
+    //Defining each class of determiner
     if d > 0.0 {
         println!("Your equation has 2 distinct roots which are: {}", x_1);
         println!("{}", x_2);
