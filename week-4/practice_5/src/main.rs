@@ -1,15 +1,16 @@
 // Rust program to read the height of a person
 // and then print if the person is tall, dwarf,
-//or average height person
+// or average height person
 
  use std::io;
 
-fn main() {
+fn main() 
+{
     let mut input = String::new();
    
     
 
-    println!("n/Enter your Height (in  centimetres): ");
+    println!("\nEnter your Height (in  centimetres): ");
     io::stdin().read_line(&mut input).expect("Not a valid string");
     let height:f32 = input.trim().parse().expect("Not a valid number");
 

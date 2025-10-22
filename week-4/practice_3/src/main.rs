@@ -3,7 +3,8 @@
 
  use std::io;
 
-fn main() {
+fn main() 
+{
     let mut input1 = String::new();
     let mut input2 = String::new();
     
@@ -20,7 +21,7 @@ fn main() {
 
     if base > 0.0 {
         let area:f32 =(base * height) / 2.0;
-        println!("Area of a a traingle: {}", area);
+        println!("Area of a  traingle: {}", area);
     } 
 
 }

@@ -4,10 +4,10 @@ use std::io;
 
 
 fn main() {
-    println!("/nStudent Information Management System!");
+    println!("\nStudent Information Management System!");
 
     // input name
-    println!("/nPlease Enter your name.");
+    println!("\nPlease Enter your name.");
     let mut name = String::new();
     io::stdin()
     .read_line(&mut name)
@@ -18,7 +18,7 @@ fn main() {
 
 
     //input age
-    println!("/nEnter your age");
+    println!("\nEnter your age");
     let mut age = String::new();
         io::stdin().read_line(&mut age).expect("Failed to red input");
     let age:i32 = age.trim().parse().expect("Input not an interger");
