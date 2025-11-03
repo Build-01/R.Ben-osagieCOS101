@@ -1,12 +1,12 @@
 fn main() {
-     Let name = "Aisha Lawal";
+     let name = "Aisha Lawal";
      let uni:&str = "Pan Atlantic University";
      let addr:&str = "Km 52 Lekki-Epe Expressway, Ibeju Lekki, Lagos";
      println!("Name: {}", name);
-     println!("University: {}, \nAddress: {}", uNI,addr);
+     println!("University: {}, \nAddress: {}", uni,addr);
 
 
- let department: &'static str = "Computer Science"
+    let department: &'static str = "Computer Science";
     let school: &'static str = "School of science and technology";
     println!("Department: {} \nSchool: {}"  , department, school);
 
