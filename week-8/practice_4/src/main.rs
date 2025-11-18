@@ -1,6 +1,6 @@
 fn main() {
   // Name vector 
-  let name = vec!["Ruth", "Sam", "Chizaram", "Chiemelie", "Mosope", "Kelita", "Mark", "Igie", "Sharon", "Olaitan"]
+  let name = vec!["Ruth", "Sam", "Chizaram", "Chiemelie", "Mosope", "Kelita", "Mark", "Igie", "Sharon", "Olaitan"];
 
   // Age vector
   let age = vec![16,17,18,19,20,22,23,14,32,44];

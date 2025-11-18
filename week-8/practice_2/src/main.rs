@@ -14,3 +14,4 @@ fn main() {
     let ch:char = v[index];
 
     print!("{} is the charcter for index [{}]\n",ch, index);
+}
