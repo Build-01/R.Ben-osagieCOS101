@@ -1,3 +1,5 @@
+//A Rust program that saves student info file format
+
 use std::io::Write;
 
 fn main() {

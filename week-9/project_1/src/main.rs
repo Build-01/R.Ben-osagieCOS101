@@ -1,3 +1,5 @@
+//Rust program that saves the list of high quality drinks of a company
+
 use std::io::Write;
 
 fn main() {
