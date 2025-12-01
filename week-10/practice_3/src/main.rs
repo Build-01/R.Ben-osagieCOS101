@@ -3,12 +3,12 @@ fn main() {
     // Vector v owns the object in heap
 
 
-    let v2 = v;
+    let v2 = v.clone();
     let v2_return = display(v2);
     println!("In main {:?}", v);
     }
 
-    fn display(v:Vec<i31>)->Vec<i32>{
+    fn display(v:Vec<i32>)->Vec<i32>{
         // returning same vector
         println!("Inside display{:?}", v);
         return v;
